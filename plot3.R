@@ -27,7 +27,7 @@ plot(as.POSIXlt(str_time),as.numeric(sub_meter_pwr$Sub_metering_1),type="l",col=
 ##Add line plot for Sub_metering 2 in RED
 lines(as.POSIXlt(str_time),as.numeric(sub_meter_pwr$Sub_metering_2),col="red")
 
-##Add line plot for Sub_metering 3 in BLUe
+##Add line plot for Sub_metering 3 in BLUE
 lines(as.POSIXlt(str_time),as.numeric(sub_meter_pwr$Sub_metering_3),col="blue")
 
 ##Incorporate matching legend
